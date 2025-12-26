@@ -20,10 +20,11 @@ Built an NER system to automatically detect fine-grained entities in tweets, wit
 
 - Structure: One word per line; last column = label; sentences separated by empty line
 
-  Harry    B-PER
-  Potter   I-PER
-  in       O
-  London   B-geo-loc
+Harry    B-PER
+Potter   I-PER
+in       O
+London   B-geo-loc
+
   
 ## Approach
 - **BiLSTM + CRF**
